@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Employee Information | UGMONK</title>
+		<link rel="stylesheet" type="text/css" href="../css/style3.3.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="icon" href="images/Coffee-logo-design.png">
+	</head>
+	<body>
+		<header>
+			<div class="navbar">
+				<img class="logo" src="images/logo.png" alt="logo of page">
+				<div class="menu">
+					<a href="index3.html" class="item item1">Home</a>
+					<a href="index3.1.html" class="item item2">Menu</a>
+					<a href="index3.2.html" class="item item3">Our Branches</a>
+					<a href="index3.3.html" class="item item4">Employee Information</a>
+				</div>
+				<div class="tools">
+					<button class="name" onclick="Logout()"> Profile | <script>document.write(localStorage.getItem('name'));</script> </button>
+				</div>
+			</div>
+		</header>
+		<section class="employees">
+			<div class="title" style="--td: 1.2s">
+				<p class="subheader block-reveal" style="--bc: #415167; --d: .1s">Who is responsible for the taste of your coffee?</p>
+				<p class="header block-reveal" style="--bc: #415167; --d: .5s">Employees of the Month!</p>
+			</div>
+			
+			<div class="employees_container">
+				<div class="information first">
+					<img class="employee_img" src="images/WhatsApp Image 2021-12-20 at 11.45.23.jpeg" alt="Emloyee Ainur's photo" width="360" height="360">
+					
+					<div class="content">
+						<p class="year">4 years experience</p>
+						<p class="emp_name">Ainur Bogembaeva</p>
+						<p class="emp_info">Student of IITU. She works here because she likes coffee.</p>
+						<a class="btn" href="#">More Information →</a>
+					</div>
+				</div>
+
+				<div class="information second">
+					<img class="employee_img" src="images/IMG_20211220_124520.jpg" alt="Employee Ruslan's photo" width="360" height="360">
+					
+					<div class="content">
+						<p class="year">5 years experience</p>
+						<p class="emp_name">Ruslan Abdulaev</p>
+						<p class="emp_info">Administrator of the branch in Almaty. He has a talent for working with coffee.</p>
+						<a class="btn" href="#">More Information →</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="links">
+			<div class="frame1">
+				<p><a class="text-link linkitem1" href="#">Customer Service</a></p>
+				<p><a class="text-link linkitem2" href="#">Help / FAQ</a></p> 
+				<p><a class="text-link linkitem3" href="#">Returns & Exchanges</a></p> 
+				<p><a class="text-link linkitem4" href="#">Sizing</a></p> 
+				<p><a class="text-link linkitem5" href="#">Gift Cards</a></p> 
+				<p><a class="text-link linkitem6" href="#">Contact Us</a></p>
+				<p><a class="text-link linkitem7" href="#">About</a></p>
+				<p><a class="text-link linkitem8" href="#">Our Story</a></p>
+				<p><a class="text-link linkitem9" href="#">Caffee</a></p>
+				<p><a class="text-link linkitem10" href="#">Journal</a></p>
+				<p><a class="text-link linkitem11" href="#">About our Coffees</a></p>
+				<p><a class="text-link linkitem12" href="#">Reviews</a></p>
+			</div>
+			<div class="frame2">
+				<div class="copyright">
+					<p>© Ugmonk 2021</p>
+					<p>All images and content may not be used without permission</p>
+				</div>
+				<div class="footer-logo">
+					<img src="images/Group.png" alt="">
+				</div>
+				<div class="media-links">
+					<a href="https://www.instagram.com" target="_blank"><img class="media-logo" src="images/instagram.svg"></a>
+					<a href="https://twitter.com" target="_blank"><img class="media-logo" src="images/twitter.svg"></a>
+					<a href="https://www.facebook.com" target="_blank"><img class="media-logo" src="images/facebook.svg"></a>
+				</div>
+			</div>
+		</footer>
+		<script type="text/javascript" src="../js/logout.js"></script>
+	</body>
+</html>
